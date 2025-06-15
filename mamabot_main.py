@@ -46,5 +46,6 @@ def chat(message):
         bot.reply_to(message, 'Неизвестная команда. Чтобы начать, напиши /start')
 
 # print jopa popa
+# 1488huesos
 
 bot.polling()
