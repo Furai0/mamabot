@@ -45,6 +45,6 @@ def chat(message):
     else:
         bot.reply_to(message, 'Неизвестная команда. Чтобы начать, напиши /start')
 
-
+# printpopajopa
 
 bot.polling()
