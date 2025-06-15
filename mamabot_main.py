@@ -20,8 +20,8 @@ def handle_start(message):
 
   # Создание клавиатуры
   keyboard = types.ReplyKeyboardMarkup(row_width=1)
-  button1 = types.KeyboardButton('Сына, ты голодный?', resize_markup=True)
-  button2 = types.KeyboardButton('Что ел?', resize_markup=True)
+  button1 = types.KeyboardButton('Сына, ты голодный?')
+  button2 = types.KeyboardButton('Что ел?')
 
   keyboard.add(button1, button2)
   bot.reply_to(message, 'Привет! Я mam бот. ', reply_markup=keyboard)
